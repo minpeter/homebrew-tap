@@ -5,28 +5,28 @@
 class EtRs < Formula
   desc "Single telemetry-free EternalTerminal binary (Rust port)"
   homepage "https://github.com/minpeter/et.rs"
-  version "0.0.7"
+  version "0.0.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.7/et-0.0.7-aarch64-apple-darwin.tar.gz"
-      sha256 "97d157acc46c64bcb139e20b6f51b5647f23c908cbe3349aa5ce7ac106ffc2e4"
+      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.8/et-0.0.8-aarch64-apple-darwin.tar.gz"
+      sha256 "2b158aba2c063dd4bba90ed8b119352ff90167400707e62a34d93198414dadd4"
     end
     on_intel do
-      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.7/et-0.0.7-x86_64-apple-darwin.tar.gz"
-      sha256 "48e44e50ea95a20d83f341789d547d06f4e4eb99c1f8571305cf8189e46a2bc7"
+      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.8/et-0.0.8-x86_64-apple-darwin.tar.gz"
+      sha256 "f3aa368ef605ae9a7353f7f7bea40cc0a86711f9e7a155c93bdad3f9cb46327f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.7/et-0.0.7-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a131512057213ac563f9e37f704841ab31da1a6b39fc7c96af93492e44453ab2"
+      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.8/et-0.0.8-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d9d40c84834151cb9c42e985233d10b9a35e65953896081f5c1ab1c437fc60da"
     end
     on_intel do
-      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.7/et-0.0.7-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0d15fbecbc5f9c4ec55ae2b1bb5b4b9d95ce15298ebcd40544ac050167f48f60"
+      url "https://github.com/minpeter/et.rs/releases/download/et@0.0.8/et-0.0.8-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7e44e65708014c55850dac439e93eb39cd2fb64edd92558bf788c21909f7287b"
     end
   end
 
